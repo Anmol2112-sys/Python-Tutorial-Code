@@ -1,0 +1,6 @@
+a=int(input("Enter the number:"))
+print(a)
+print(type(a))
+a=float(a)
+print("After typecasting:",a)
+print(type(a))
