@@ -1,1 +1,1 @@
-print(a)
+print("The sum of all items in the list",(add[12,4,5,13,23]))
