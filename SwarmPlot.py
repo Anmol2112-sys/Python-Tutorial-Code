@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import pandas as pd 
 
-
 data=sns.load_dataset("tips")
+print(data)
 
-sns.kdeplot(data=data,x="total_bill",hue="sex",multiple="stack")
+sns.swarmplot(data=data,x="day",y="total_bill",hue="sex",dodge=True)
 plt.show()
