@@ -1,9 +1,5 @@
-import matplotlib.pyplot as plt 
-import seaborn as sns 
-import pandas as pd 
+names=["Anmol","Navin","Aditya"]
+comps=("Rubrik","Apple","MS")
 
-
-data=sns.load_dataset("tips")
-
-sns.kdeplot(data=data,x="total_bill",hue="sex",multiple="stack")
-plt.show()
+zipped=zip(names,comps)
+print(list(zipped))
